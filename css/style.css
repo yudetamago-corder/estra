@@ -1,0 +1,289 @@
+@charset="UTF-8";
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+.section-title{ 
+    font-size: 30px;
+    font-weight: bold; 
+     margin: 30px 0; 
+    text-align: center;
+ } 
+ img{
+      display: block;
+      width: 100%;
+    } 
+.wrap{ width: 80%;
+       margin: 0 auto 50px;
+     } 
+.flex{ display: flex;
+        align-items: center; 
+        flex-wrap: wrap;
+     } 
+.between{ 
+    justify-content: space-between; 
+        }
+        
+        
+.around{ justify-content: space-around;
+}
+header{
+    height: 70px;
+    background-color: #000;
+}
+.header-logo{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 35px;
+    color: #f2f2f2;
+    line-height: 70px;
+}
+.header-nav li{
+    display: inline-block;
+    margin-right: 35px;
+    font-size: 15px;
+
+}
+
+
+#eyecatch{
+    height: 600px;
+    background: url(../image.jpg);no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+#eyecatch p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+    font-weight: bold;
+    color: black;
+    line-height: 1;
+}
+
+.section-title{
+    margin: 30px auto;
+}
+
+.wrap{
+    width: 80%;
+    margin: 0 auto 50px;
+}
+.about-right h3,.about-right p {
+    margin-bottom: 15px;
+}
+.about-left,.about-right{
+    width: 45%;
+}
+.about-right ol {
+    list-style-position: inside;
+}
+
+
+.section-title{
+    padding: 40px 0;
+    margin: 0;
+}
+
+#business{
+    background: url(../image.jpg);
+    background-size: cover;
+}
+
+
+.business-wrap{
+    text-align: center;
+}
+
+.business-cat{
+    width: 28%;
+}
+.business-cat h3{
+    font-size: 18px;
+}
+
+.business-cat p{
+    color: #fff;
+}
+
+
+#company{
+    padding: 40px 0 70px o;
+}
+#company .contain{
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#company table tr{
+    border-bottom: 1px solid #333333;
+}
+#company th,#company td{
+    text-align: left;
+}
+
+
+#contact .section-title{
+    padding: 40px 0;
+    margin: 0;
+}
+.form{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form > div input{
+    width: 70%;
+    margin-bottom: 20px;
+    padding: 7px;
+}
+
+input,textarea{
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+textarea{
+    vertical-align: top;
+    height: 15em;
+}
+.button-submit{
+    text-align: center;
+}
+
+.footer{
+    height: 80px;
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+}
+.red{
+    color: red;
+}
+
+
+
+#input{
+    display: none;
+}
+.line1,.line2,.line3{
+    width: 20px;
+    height: 3px;
+    background-color: #000;
+    margin: 3px;
+     
+}
+@media screen and (min-width:740px)
+{
+   #hamburg{
+    display: none;
+        } 
+}
